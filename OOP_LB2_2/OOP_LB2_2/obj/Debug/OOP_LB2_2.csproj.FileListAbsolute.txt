@@ -1,0 +1,7 @@
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\bin\Debug\OOP_LB2_2.exe.config
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\bin\Debug\OOP_LB2_2.exe
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\bin\Debug\OOP_LB2_2.pdb
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\obj\Debug\OOP_LB2_2.csprojAssemblyReference.cache
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\obj\Debug\OOP_LB2_2.csproj.CoreCompileInputs.cache
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\obj\Debug\OOP_LB2_2.exe
+D:\projects\C#\OOP_LB2_2\OOP_LB2_2\obj\Debug\OOP_LB2_2.pdb
