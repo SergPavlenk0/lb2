@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\C#\\OOP_LB2_7\\OOP_LB2_7\\OOP_LB2_7.csproj",
+      "projectUniqueName": "D:\\projects\\C#\\lb2\\OOP_LB2_7\\OOP_LB2_7\\OOP_LB2_7.csproj",
       "projectName": "OOP_LB2_7",
-      "projectPath": "D:\\projects\\C#\\OOP_LB2_7\\OOP_LB2_7\\OOP_LB2_7.csproj",
+      "projectPath": "D:\\projects\\C#\\lb2\\OOP_LB2_7\\OOP_LB2_7\\OOP_LB2_7.csproj",
       "packagesPath": "C:\\Users\\mello\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\C#\\OOP_LB2_7\\OOP_LB2_7\\obj\\",
+      "outputPath": "D:\\projects\\C#\\lb2\\OOP_LB2_7\\OOP_LB2_7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mello\\AppData\\Roaming\\NuGet\\NuGet.Config",

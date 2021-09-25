@@ -14,14 +14,27 @@ namespace OOP_LB2_7
             Name = name;
             Surname = surname;
         }
-        public void Calculator(double salary, double tax)
+        public void Calculator(out double salary, out double tax)
         {
-            salary = 
+            double baseSalary = 0d;
+
+            switch (Post)
+            {
+                case "Junior Developer":
+                    baseSalary = 20000d;
+                    break;
+                case "Middle Developer":
+                    baseSalary = 35000d;
+                    break;
+                case "Senior Developer":
+                    baseSalary = 60000d;
+                    break;
+            }
+            salary = baseSalary * Experience / 2d;
+            tax = salary * 0.137d;
         }
 
     }
-
-
     class Program
     {
         static void Main(string[] args)
@@ -32,6 +45,10 @@ namespace OOP_LB2_7
                 Post = "Middle Developer",
                 Experience = 5
             };
+            employee.Calculator(out double salary, out double tax);
+            Console.WriteLine($"Имя: {employee.Name}\nФамилия: {employee.Surname}\nДолжность: {employee.Post}\nЗарплата: {salary}\nНалог: {tax} ");
+            Console.ReadKey();
+           
 
 
         }
