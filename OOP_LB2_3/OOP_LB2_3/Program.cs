@@ -6,43 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP_LB2_3
 {
-    public class Book
-    {
-        public Title title { get; set; }
-        public Author author { get; set; }
-        public Content content { get; set; }
-
-    }
-    public class Title
-    {
-        public string name;
-        public void Show()
-        {
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.Write($"\nИмя книги: {name}. ");
-            Console.ResetColor();
-        }
-    }
-    public class Author
-    {
-        public string author;
-        public void Show()
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write($"\nАвтор книги: {author}. ");
-            Console.ResetColor();
-        }
-    }
-    public class Content
-    {
-        public string content;
-        public void Show()
-        {
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write($"\nКонтент книги: {content}. ");
-            Console.ResetColor();
-        }
-    }
+     
+    
     class Program
     {
         static void Main(string[] args)
